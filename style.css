@@ -1,0 +1,101 @@
+/* =========================
+   GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background-color: #0b5d3b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 4px solid #d4af37;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* =========================
+   MAIN SECTIONS
+========================= */
+
+section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+section h1 {
+    color: #0b5d3b;
+    font-family: Georgia, serif;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #0b5d3b;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #147a4f;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+    background-color: #0b5d3b;
+    color: white;
+    border: 2px solid;
+}
